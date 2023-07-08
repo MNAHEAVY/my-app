@@ -96,7 +96,7 @@ export const deleteCartItem = (userId, itemId) => {
 
 export const getAllProducts = () => {
   return async function (dispatch) {
-    const products = await axios("http://localhost:3001/products");
+    const products = await axios(`${API_BASE_URL}/products`);
 
     return dispatch({
       type: GET_ALL_PRODUCTS,
@@ -106,7 +106,7 @@ export const getAllProducts = () => {
 };
 export const getValues = () => {
   return async function (dispatch) {
-    const values = await axios(`http://localhost:3001/values`);
+    const values = await axios(`${API_BASE_URL}/values`);
     console.log(values);
 
     dispatch({
