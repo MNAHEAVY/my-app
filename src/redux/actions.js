@@ -124,9 +124,7 @@ export const checkUserExists = (userData) => {
 
 export const checkUserAdmin = (mail) => {
   return async function (dispatch) {
-    const getUser = await axios.get(
-      `${API_BASE_URL}/users?email=${mail}`
-    );
+    const getUser = await axios.get(`${API_BASE_URL}/users?email=${mail}`);
     console.log(getUser);
     dispatch({
       type: CHECK_USER,
@@ -137,9 +135,7 @@ export const checkUserAdmin = (mail) => {
 
 export const getProductById = (productId) => {
   return async function (dispatch) {
-    const prodId = await axios.get(
-      `${API_BASE_URL}/product/${productId}`
-    );
+    const prodId = await axios.get(`${API_BASE_URL}/product/${productId}`);
     console.log("aca", prodId);
     dispatch({
       type: GET_PRODUCT_BY_ID,
