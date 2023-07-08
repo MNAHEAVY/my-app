@@ -1,0 +1,99 @@
+.container-color {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+.kkkooo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-f {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+img#logo-b.css-o69gx8-MuiCardMedia-root {
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+span#arrowBack {
+  margin-left: 45px;
+}
+
+#centeringSideB {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+form#formCreate {
+  width: 800px;
+}
+.calculadora {
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+.form-calculo {
+  font-weight: 500;
+  /* align-items: center; */
+  font-size: 14px;
+  border-radius: 8px;
+  margin: 15px;
+
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.container-total-form {
+  margin-top: -40px;
+}
+.container-left {
+  width: 67%;
+  padding: 15px;
+}
+.container-right {
+  display: flex;
+  width: 33%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.containerB {
+  display: flex;
+  /* flex-direction: row; */
+  top: 40px;
+  /* flex-wrap: nowrap; */
+  position: relative;
+  /* align-content: center; */
+  justify-content: space-around;
+}
+
+.container-subtotal-form {
+  display: flex;
+  margin-top: 40px;
+}
+
+.color-content {
+  display: flex;
+  flex-wrap: wrap;
+}

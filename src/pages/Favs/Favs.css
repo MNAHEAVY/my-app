@@ -1,0 +1,19 @@
+div#smallCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+img#favImg {
+  width: auto;
+  height: 200px;
+}
+
+h5 {
+  font-size: 12px;
+  display: flex;
+}

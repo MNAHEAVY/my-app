@@ -1,0 +1,33 @@
+.div {
+  text-align: center;
+  margin: auto;
+}
+.h1 {
+  font-size: 6.5vh;
+  font-weight: 900;
+  color: black;
+  margin-top: 15px;
+}
+
+.span {
+  text-decoration: none;
+  font-weight: 900;
+  color: grey;
+}
+.span:hover {
+  font-size: 18px;
+  color: grey;
+}
+.imga {
+  width: auto;
+  height: 400px;
+  text-align: center;
+}
+.notFoundLink {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+
+  flex-direction: column;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.nava {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+}
+
+.dropdown-menu {
+  --bs-dropdown-zindex: 3000;
+  font-size: "12px";
+}
+
+#navbarScrollingDropdown {
+  z-index: 3000;
+}
+
+#buttons {
+  margin-top: -5px;
+}
+
+.dropdown-item {
+  font-size: "12px";
+}

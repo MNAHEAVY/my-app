@@ -1,0 +1,43 @@
+#delButton {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 33px;
+  padding-top: 0px;
+  padding-left: 190px;
+}
+
+.userexistb {
+  font-size: 12px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#favImg {
+  height: auto;
+  width: 200px;
+}
+
+#buyButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.linkNormal {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.linkNormal:hover {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+}

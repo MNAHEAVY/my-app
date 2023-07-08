@@ -1,0 +1,57 @@
+.img {
+  width: 45px;
+  height: 45px;
+  justify-content: left;
+  align-items: left;
+}
+img#logo {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 60px;
+  height: 60px;
+  display: flexbox;
+  justify-content: left;
+  align-items: left;
+}
+img {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 60px;
+  height: 60px;
+  display: flexbox;
+  justify-content: left;
+  align-items: left;
+}
+.body {
+  background-color: rgb(83, 63, 31);
+}
+.MuiBox-root css-1j9bsaa {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: flex-end;
+}
+.css-1edhhsm-MuiPaper-root-MuiAppBar-root {
+  z-index: 0;
+}
+
+.MuiDivider-root {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.877);
+  padding-left: 7px;
+}
+div.nav-item.dropdown {
+  color: black;
+  padding-left: 2px;
+}
